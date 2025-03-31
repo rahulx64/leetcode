@@ -1,0 +1,143 @@
+1. Interpreted
+Python is executed line by line using an interpreter rather than being compiled into machine code beforehand. This makes it easy to test and debug code but can be slower than compiled languages.
+
+2. Object-Oriented
+Python supports the object-oriented programming paradigm, which is centered around objects—instances of classes. It allows features like encapsulation, inheritance, and polymorphism, making it suitable for modular and reusable code.
+
+3. High-Level Language
+Python uses syntax that is close to human language, abstracting away complex low-level details like memory management. This makes it easier to write, read, and understand compared to low-level languages like C or assembly.
+
+print is inbuilt function 
+
+using triple '''   '''  for multi line string   it is printed as it is wrriten no need to use \n for break into new line 
+\ for removing special meaning 
+
+
+In Python, __name__ is a special variable that tells you whether the file is being:
+
+Run directly as a script, or
+Imported into another script.
+Key Rule:
+When the file is run directly, __name__ is "__main__".
+When the file is imported, __name__ is the name of the file (module).
+Why is this Useful?
+It helps you control what code runs:
+
+Code inside if __name__ == "__main__": runs only when the file is executed directly.
+This code will not run if the file is imported.
+Example:
+File: example.py:
+python
+Copy code
+def say_hello():
+    print("Hello!")
+
+if __name__ == "__main__":
+    print("This runs only if the file is executed directly.")
+    say_hello()
+Case 1: Running Directly:
+When you run example.py:
+
+bash
+Copy code
+$ python example.py
+Output:
+
+csharp
+Copy code
+This runs only if the file is executed directly.
+Hello!
+Case 2: Importing into Another File:
+If you import example.py into another script:
+
+python
+Copy code
+# main.py
+import example
+
+example.say_hello()
+Output:
+
+Copy code
+Hello!
+(The "This runs only if the file is executed directly." message will not appear because if __name__ == "__main__" blocks don’t execute during import.)
+
+
+In Python, self refers to the current instance of a class. It allows you to access and modify the object's attributes and methods within the class.
+
+
+with super keyword we call both constructor in inheritance if multiple inheritance else if not constructor passed the constructor of parent is passed and if constructor is created for child then child constructor is called 
+
+
+
+TCP (Transmission Control Protocol)
+Connection-Oriented: Establishes a reliable connection between sender and receiver before data transfer.
+Reliability: Ensures all data is delivered in the correct order without loss, duplication, or corruption.
+Acknowledgment: Sends acknowledgment for received packets and retransmits lost packets.
+Data Flow Control: Manages flow to prevent congestion.
+Usage: Used for applications that require reliability, like web browsing (HTTP/HTTPS), file transfers (FTP), and emails (SMTP, IMAP, POP3).
+Key Features:
+
+Three-way handshake for connection establishment.
+Sequencing of data packets.
+Error detection and correction.
+Example Applications:
+
+HTTP, HTTPS
+FTP
+SMTP, IMAP
+UDP (User Datagram Protocol)
+Connectionless: No need to establish a connection before data transfer.
+Unreliable: No guarantees of delivery, order, or data integrity.
+Faster: Minimal overhead, making it faster than TCP.
+Usage: Used for time-sensitive applications where speed is more important than reliability, such as live streaming, online gaming, and DNS queries.
+Key Features:
+
+No handshaking or acknowledgment.
+Simple and lightweight protocol.
+No sequencing or flow control.
+Example Applications:
+
+Video streaming (YouTube, Netflix)
+Online gaming
+VoIP (Skype, Zoom)
+DNS, DHCP
+Comparison Table
+Feature	TCP	UDP
+Type	Connection-oriented	Connectionless
+Reliability	Reliable	Unreliable
+Speed	Slower due to overhead	Faster due to low overhead
+Error Checking	Yes, ensures data integrity	Yes, but no retransmission
+Packet Ordering	Maintains order	No order guaranteed
+Use Case Examples	HTTP, FTP, Email	Streaming, DNS, Gaming
+Summary:
+
+Use TCP when reliability is critical.
+Use UDP when speed is more important than accuracy or order.
+
+
+
+
+
+
+django
+free and open source framework for building web app with python
+
+is a battery included framework with lot of feature 
+
+the admin site   from managing data 
+object relation mapper (orm)  rather raw sql query it uses python object to interact with data base   model CRUD operation
+authentication  which is built in 
+caching
+
+api is like a tv remote which help us interact with database
+python manage.py runserver
+
+
+
+transunet   
+
+Applications
+Medical imaging (tumor segmentation, organ detection).
+Autonomous driving (road/lane detection).
+Satellite imaging (land classification).

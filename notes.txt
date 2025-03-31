@@ -1,0 +1,23 @@
+🟢 Easy Problems
+Reverse a Linked List
+Middle of the Linked List
+Merge Two Sorted Lists
+Remove Linked List Elements
+Palindrome Linked List
+🟡 Medium Problems
+Add Two Numbers
+Remove N-th Node from End of List
+Linked List Cycle
+Linked List Cycle II (Find Cycle Start)
+Intersection of Two Linked Lists
+Sort List (Merge Sort on Linked List)
+Reorder List
+Partition List
+Rotate List
+Flatten a Multilevel Doubly Linked List
+🔴 Hard Problems
+Reverse Nodes in k-Group
+Merge k Sorted Lists
+Copy List with Random Pointer
+LRU Cache (Uses Doubly Linked List)
+LFU Cache (Advanced Cache Implementation)

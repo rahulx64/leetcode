@@ -1,0 +1,68 @@
+begginer----->😎😎😎😎😎😎
+Beginner (Easy - Medium)
+Arrays & Strings (Two Pointers, Sliding Window, Kadane’s Algorithm)
+
+Hashing (HashMaps, HashSets, Frequency Count)
+
+Stack & Queue (Monotonic Stack, Min Stack, Circular Queue)
+
+Linked List (Reversal, Fast/Slow Pointers)
+
+Sorting (QuickSort, MergeSort, Counting Sort)
+
+Searching (Binary Search, Lower Bound, Upper Bound)
+
+Recursion & Backtracking (Permutations, Combinations)
+
+Greedy (Activity Selection, Interval Scheduling)
+
+Basic Graphs (BFS, DFS, Adjacency List)
+
+Math (GCD, LCM, Prime Numbers - Sieve of Eratosthenes)
+
+Bit Manipulation (XOR Tricks, Power of Two)
+
+indermediate --> 😎😎😎😎😎😎
+Intermediate (Medium - Hard)
+Advanced Graphs (Dijkstra’s, Bellman-Ford, Floyd-Warshall)
+
+Trees (DFS, BFS, Segment Trees, Trie, BST Operations)
+
+Dynamic Programming (Knapsack, LIS, LCS, Coin Change, Subset Sum)
+
+Greedy Techniques (Huffman Coding, Job Scheduling)
+
+Sliding Window & Two Pointers (Variable & Fixed Length)
+
+Heap & Priority Queue (Kth Largest, Median Finder)
+
+Interval Problems (Merging, Overlapping Intervals)
+
+String Algorithms (KMP, Rabin-Karp, Z-Algorithm)
+
+Matrix Problems (Spiral Order, Rotations, Search in Matrix)
+
+advanced ------>⭐⭐⭐⭐⭐⭐⭐⭐
+
+Advanced DP (Digit DP, Partition DP, Bitmask DP)
+
+Advanced Graphs (Heavy-Light Decomposition, Centroid Decomposition)
+
+Game Theory (Nim Game, Grundy Numbers)
+
+Flow Algorithms (Edmonds-Karp, Dinic’s Algorithm)
+
+Advanced Trees (Persistent Segment Tree, Treaps, AVL Trees)
+
+Suffix Arrays, Suffix Trees & Automata
+
+Mo’s Algorithm (Offline Queries)
+
+Convex Hull (Graham Scan, Jarvis March)
+
+Parallel Binary Search
+
+Matrix Exponentiation
+
+Number Theory (Chinese Remainder Theorem, Fermat’s Theorem)
+
