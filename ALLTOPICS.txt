@@ -67,3 +67,23 @@ Matrix Exponentiation
 Number Theory (Chinese Remainder Theorem, Fermat’s Theorem)
 
 
+----------------->
+implementation constructive
+maths
+binary Search
+prime,sieve,prime factorisation
+bit manipulation,powerset
+stack queue priority queue
+string Algorithm
+BFS
+Tree
+lca
+graph Algorithm
+matrix expoenentiation
+Trie
+dyanamic Programming
+disjoint Set 
+sqrt decomposition,mo Algorithm
+fenwick Tree
+segment Tree
+lazy propagation

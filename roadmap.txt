@@ -1,0 +1,89 @@
+To reach the level where you can solve any LeetCode Hard problem, you don’t just need to solve a fixed number—you need to build intuition, master patterns, and train problem-solving muscles. But here’s a realistic roadmap based on proven strategies:
+
+🔥 Ultimate LeetCode Hard Prep Roadmap
+🧠 Phase 1: Foundation (50–70 questions)
+✅ Goal: Get comfortable with Mediums & patterns.
+📌 Topics:
+
+Arrays & Hashing
+
+Two Pointers
+
+Sliding Window
+
+Stack, Queue
+
+Linked List
+
+Binary Search
+
+Trees, DFS/BFS
+
+Heap/Priority Queue
+
+Backtracking
+
+Recursion
+
+➡️ Solve 5–8 good medium-level problems from each topic.
+
+🧩 Phase 2: Pattern Recognition & Advanced Concepts (70–100 questions)
+✅ Goal: Learn patterns used in Hard problems.
+
+📌 Focus on:
+
+DP (Tabulation + Memoization)
+
+Advanced Graphs (Toposort, Union Find, Dijkstra, A*)
+
+Segment Trees, Fenwick Trees
+
+Bitmasking
+
+Trie
+
+Monotonic Stack / Queue
+
+Greedy vs. DP tradeoffs
+
+➡️ Practice 10+ Hard problems by type:
+
+3–5 Hard DP
+
+3–5 Hard Graphs
+
+3–5 Hard Greedy
+
+2–3 Bitmask
+
+2–3 Tricky Math
+
+🧗 Phase 3: Daily Hard Problem Grind (50–100 problems)
+✅ Goal: Build comfort with Hard-level thinking
+
+📌 Tips:
+
+Spend 1–2 hours per hard problem
+
+Struggle first (30–40 mins) before seeing solution
+
+Write code from scratch even after reading the editorial
+
+Tag problems by pattern and review weak spots
+
+Use Neetcode, Blind 75 Extended, and Codeforces/AtCoder for extra challenge
+
+🔁 Final Stretch: Master Mode
+Solve 5 random LeetCode Hard problems per week
+
+Join contests to think under pressure
+
+Teach others / explain solutions to lock in concepts
+
+📈 Summary
+Phase	What to Do	Approx Questions
+1	Strong Mediums	50–70
+2	Advanced Concepts	70–100
+3	Daily Hard Practice	50–100
+💡 Total: Around 200–250 quality problems with focused effort can take you from Medium to any Hard-level question with enough time and dedication.
+
