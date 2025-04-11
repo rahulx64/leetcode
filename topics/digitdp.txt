@@ -1,0 +1,99 @@
+Here are the different variants of Digit DP with their tabulation transition formulas. These are used to solve digit-related problems efficiently using Dynamic Programming.
+
+🔢 Digit DP Basics
+Let’s denote:
+
+pos: current digit index (from most significant to least)
+
+tight: whether the current prefix is tight with the original number (i.e., so far digits match)
+
+leading_zero: whether we are still placing leading zeros
+
+sum: any property we are maintaining like digit sum, count of digits, etc.
+
+✅ 1. Counting Numbers ≤ N
+Goal:
+Count how many numbers ≤ N exist.
+
+DP State: dp[pos][tight]
+
+Transition:
+
+cpp
+Copy
+Edit
+for (int d = 0; d <= (tight ? digits[pos] : 9); ++d) {
+    next_tight = tight && (d == digits[pos]);
+    dp[pos][tight] += dp[pos+1][next_tight];
+}
+✅ 2. Sum of Digits of Numbers ≤ N
+Goal:
+Find the total sum of digits of all numbers ≤ N.
+
+DP State: dp[pos][tight][sum]
+
+Transition:
+
+cpp
+Copy
+Edit
+for (int d = 0; d <= (tight ? digits[pos] : 9); ++d) {
+    next_tight = tight && (d == digits[pos]);
+    dp[pos][tight][sum] += dp[pos+1][next_tight][sum + d];
+}
+✅ 3. Count Numbers with Exact K Digits Having Property P
+Goal:
+Only consider numbers with exact digit length and some property (e.g. divisible by X).
+
+DP State: dp[pos][tight][property][leading_zero]
+
+Transition:
+
+cpp
+Copy
+Edit
+for (int d = 0; d <= (tight ? digits[pos] : 9); ++d) {
+    next_tight = tight && (d == digits[pos]);
+    next_property = update_property(property, d);
+    next_leading_zero = leading_zero && (d == 0);
+    dp[pos][tight][property][leading_zero] += dp[pos+1][next_tight][next_property][next_leading_zero];
+}
+✅ 4. Count Numbers Where Digit Sum is Divisible by K
+Goal:
+Count numbers ≤ N with digit sum % K == 0.
+
+DP State: dp[pos][tight][mod]
+
+Transition:
+
+cpp
+Copy
+Edit
+for (int d = 0; d <= (tight ? digits[pos] : 9); ++d) {
+    next_mod = (mod + d) % K;
+    next_tight = tight && (d == digits[pos]);
+    dp[pos][tight][mod] += dp[pos+1][next_tight][next_mod];
+}
+✅ 5. Count of Numbers with Digits in Non-Decreasing Order
+Goal:
+Digits must be in increasing order (like 123, 455).
+
+DP State: dp[pos][tight][last_digit]
+
+Transition:
+
+cpp
+Copy
+Edit
+for (int d = last_digit; d <= (tight ? digits[pos] : 9); ++d) {
+    next_tight = tight && (d == digits[pos]);
+    dp[pos][tight][d] += dp[pos+1][next_tight][d];
+}
+✅ 6. Palindrome Number Count ≤ N
+Goal:
+Count numbers ≤ N that are palindromes.
+
+DP State: dp[left][right][tight_left][tight_right]
+
+Transition: Match digits at symmetric positions using two pointers.
+
